@@ -5,12 +5,12 @@ import time
 start = time.time()
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-numOfRuns = 10
-time_range = 100
-event_a_occurence = 10
-event_b_occurence = 10
-delta_after = 10
-delta_before = 1
+numOfRuns = 50000
+time_range = 43200
+event_a_occurence = 12
+event_b_occurence = 124
+delta_after = 60
+delta_before = 60
 # Set this to False or True to supresse print debug outputs
 DUBUG = True
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
